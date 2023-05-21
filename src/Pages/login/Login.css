@@ -1,0 +1,14 @@
+.form{
+    width: 35%;
+    text-align: start;
+    justify-content: center;
+    margin-left: 30%;
+    box-shadow: 2px 12px 10px rgb(95, 217, 231);
+    padding: 20px 40px;
+    border-radius: 13px;
+    /* background-color: #cf3838; */
+}
+.btn-login{
+    width: 20%;
+    font-weight: bolder;
+}

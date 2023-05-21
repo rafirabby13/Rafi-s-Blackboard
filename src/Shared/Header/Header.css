@@ -1,0 +1,17 @@
+.navbar{
+    /* border: 1px solid blue; */
+    box-shadow: 2px 2px 20px rgb(73, 226, 237);
+}
+.menu-items{
+    border: 1px solid blue;
+    margin-right: 220px;
+}
+.nav-items{
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: large;
+    letter-spacing: 1px;
+    margin-right: 40px ;
+    color: rgb(33, 223, 236);
+}
