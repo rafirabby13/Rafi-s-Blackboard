@@ -6,8 +6,13 @@
     width: 300px;
     height: 40px;
     /* border: 1px solid rgb(123, 123, 237); */
-    box-shadow: 6px 2px 1px rgb(112, 225, 240);
+    box-shadow: 6px 12px 10px rgb(112, 225, 240);
     border-radius: 13px;
+    
+}
+.link{
     text-decoration: none;
-    background-color: #f2c6f2;
+    color: rgb(203, 18, 240);
+    font-weight: bolder;
+
 }
