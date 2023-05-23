@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import img1 from "../../assets/img1.jpg";
+
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import { FaBeer, FaUserAlt } from "react-icons/fa";
@@ -16,7 +16,7 @@ import { AuthContext } from "../../Pages/ContextProvider/ContextProvider.js";
 
 const Header = () => {
   const { user, logout } = useContext(AuthContext);
-  console.log(user);
+  
 
   const handleLogOut = () => {
     logout()
@@ -24,29 +24,29 @@ const Header = () => {
         alert("logged out successfully");
       })
       .catch((error) => {
-        console.error("errro from header", error);
+        console.error("error from header", error);
       });
   };
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar  expand="lg" className="navbar-1">
       <Container>
-        <div>
+        <div className="icon-name">
           <Navbar.Brand href="#home">
             <img
               src={logo}
               width="30"
               height="30"
-              className="d-inline-block align-top"
+              className="d-inline-block mb-3"
               alt="React Bootstrap logo"
             />
           </Navbar.Brand>
-          <Navbar.Brand href="#home">Rafi's Blackboard</Navbar.Brand>
+          <Navbar.Brand  href="/"><span className="header-name">RAFI's <span className="board">Blackboard</span></span ></Navbar.Brand>
         </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <div>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Link className="nav-items">Courses</Link>
+              <Link className="nav-items" to='/courseList'>Courses</Link>
               <Link className="nav-items">FAQ</Link>
               <Link className="nav-items">Blog</Link>
               {user?.uid ? (

@@ -15,3 +15,20 @@
     margin-right: 40px ;
     color: rgb(33, 223, 236);
 }
+.navbar-1{
+    background: linear-gradient( rgb(234, 249, 203),rgb(227, 226, 231),rgb(239, 235, 241), rgb(230, 239, 172));
+}
+.header-name{
+    color: rgb(244, 15, 198);
+    font-size: 35px;
+    font-weight: 700;
+}
+.header-name .board{
+    color: black;
+    font-size: 20px;
+
+}
+.icon-name{
+    justify-content: center;
+
+}

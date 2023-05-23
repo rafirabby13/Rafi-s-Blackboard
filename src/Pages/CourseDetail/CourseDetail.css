@@ -1,0 +1,12 @@
+.courseDetail {
+  display: flex;
+  /* margin-left: 100px; */
+  /* width: 80%;
+    margin-right: 100px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px 1px;
+  width: 1000px;
+  justify-content: center;
+  margin-left: 134px;
+}

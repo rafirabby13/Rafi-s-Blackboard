@@ -1,0 +1,16 @@
+.detail-card {
+  display: flex;
+  width: 100px;
+  /* margin-right: 100px; */
+  /* background-color: #bcece7; */
+}
+.text-detail {
+  text-align: justify;
+}
+.card {
+  border: none;
+  /* box-shadow: 2px 2px 20px rgb(183, 34, 209); */
+  border-radius: 13px;
+  height: 200px;
+  padding: 10px ;
+}
