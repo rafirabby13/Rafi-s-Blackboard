@@ -11,9 +11,10 @@
 }
 .courseList-link{
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
-    color: #3a6cf7;
+    text-transform: uppercase;
+    color: rgb(244, 15, 198);
 }
 .list-group{
     

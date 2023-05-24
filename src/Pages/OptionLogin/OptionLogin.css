@@ -1,18 +1,23 @@
-.option-btn{
-    margin-top: 100px;
+.option-btn {
+  margin-top: 100px;
+  margin-bottom: 290px;
 }
-.login-btn{
+.login-btn {
+  width: 300px;
+  height: 40px;
+  /* border: 1px solid rgb(123, 123, 237); */
+  /* box-shadow: 6px 1px 16px rgb(217, 91, 7);
+     */
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 13px;
+  height: 50px;
+  width: 320px;
+  
 
-    width: 300px;
-    height: 40px;
-    /* border: 1px solid rgb(123, 123, 237); */
-    box-shadow: 6px 12px 10px rgb(112, 225, 240);
-    border-radius: 13px;
-    
 }
-.link{
-    text-decoration: none;
-    color: rgb(203, 18, 240);
-    font-weight: bolder;
-
+.link {
+  text-decoration: none;
+  color: rgb(1, 0, 0);
+  font-weight: bolder;
+  font-size: x-large;
 }

@@ -32,21 +32,23 @@ const Header = () => {
       <Container>
         <div className="icon-name">
           <Navbar.Brand href="#home">
+            <Link to='/'>
             <img
               src={logo}
               width="30"
               height="30"
               className="d-inline-block mb-3"
               alt="React Bootstrap logo"
-            />
+            />.
+            </Link>
           </Navbar.Brand>
-          <Navbar.Brand  href="/"><span className="header-name">RAFI's <span className="board">Blackboard</span></span ></Navbar.Brand>
+          <Navbar.Brand  to="/"><span className="header-name">RAFI's <span className="board">Blackboard</span></span ></Navbar.Brand>
         </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <div>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Link className="nav-items" to='/courseList'>Courses</Link>
+              <Link className="nav-items" to='/courseList/1'>Courses</Link>
               <Link className="nav-items">FAQ</Link>
               <Link className="nav-items">Blog</Link>
               {user?.uid ? (
@@ -63,9 +65,9 @@ const Header = () => {
               {user?.photoURL ?
               
               (
-                <Image src={user.photoURL}></Image>
+                <Image title={user?.email} src={user.photoURL} style={{cursor: "pointer"}}></Image>
               ) : (
-                <FaUserAlt style={{ color: "black" }}></FaUserAlt>
+                <FaUserAlt title={user?.email} style={{ color: "rgb(244, 15, 198)", cursor:"pointer" }} ></FaUserAlt>
               )}
             </Nav>
           </Navbar.Collapse>

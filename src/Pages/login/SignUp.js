@@ -22,12 +22,13 @@ const SignUp = () => {
             console.error("error", error);
         })
     }
-
+   
 
   return (
     <div>
       <div className="form ">
-        <h2>Sign Up</h2>
+      <h2 style={{textAlign:"center", fontWeight:"bolder", color:" rgb(244, 15, 198)"}}>Sign Up</h2>
+        
 
         <Form onSubmit={handleSignUp}>
           <Form.Group className="mb-3 " controlId="formBasicEmail">
@@ -70,7 +71,7 @@ const SignUp = () => {
             />
           </Form.Group>
           <p>
-            Already have an account? <Link to="/login">Login</Link>
+            Already have an account? <Link style={{color:" rgb(244, 15, 198)"}} to="/login">Login</Link>
           </p>
           <Button className="btn-login" variant="outline-info" type="submit">
             Sign Up

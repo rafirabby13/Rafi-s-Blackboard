@@ -13,7 +13,9 @@
     font-size: large;
     letter-spacing: 1px;
     margin-right: 40px ;
-    color: rgb(33, 223, 236);
+    color: rgb(244, 15, 198);
+    font-size: large;
+    text-transform: uppercase;
 }
 .navbar-1{
     background: linear-gradient( rgb(234, 249, 203),rgb(227, 226, 231),rgb(239, 235, 241), rgb(230, 239, 172));
